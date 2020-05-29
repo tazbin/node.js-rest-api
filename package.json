@@ -1,0 +1,37 @@
+{
+    "name": "rest_api",
+    "version": "1.0.0",
+    "description": "A node.js express.js rest api demo development with JWT authentication",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tazbin/node.js-rest-api.git"
+    },
+    "keywords": [
+        "rest",
+        "api",
+        "node",
+        "express",
+        "mongodb",
+        "jwt"
+    ],
+    "author": "Md Tazbinur Rahaman",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tazbin/node.js-rest-api/issues"
+    },
+    "homepage": "https://github.com/tazbin/node.js-rest-api#readme",
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.16",
+        "multer": "^1.4.2"
+    }
+}
